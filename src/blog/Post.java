@@ -1,5 +1,7 @@
 package blog;
 
+//made by Viktor Johannisson
+
 public class Post {
 	public String title;
 	public String text;
