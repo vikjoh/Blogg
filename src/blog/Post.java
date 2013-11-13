@@ -6,8 +6,8 @@ public class Post {
 	public String title;
 	public String text;
 	public String date;
-	private Author author = new Author();
-	private Category category = new Category();
+	public Author author = new Author();
+	public Category category = new Category();
 
 	public Author getAuthor() {
 		return author;
@@ -26,6 +26,6 @@ public class Post {
 	}
 
 	public String getPost() {
-		return title + text + author.getAuthor() + category.getCategory();
+		return title + text + date + author.getAuthor() + category.getCategory();
 	}
 }
